@@ -1,11 +1,11 @@
 <h1 align="center">
-LVL Software Development Guidelines
+Einfaldlega Hugmyndir's (EFHM) Software Development Guidelines
 </h1>
 
 <p align="center"><i>
-This repository contains the software development guidelines for LVL.<br/>
-Center for Analysis and Design of Intelligent Agents, Language and Voice Lab <br/>
-<a href="https://ru.is">Reykjavik University</a>
+This repository contains the software development guidelines for Einfaldlega Hugmyndir.<br/>
+
+
 </i></p>
 
 <img src="https://user-images.githubusercontent.com/9976294/86356451-cddbc780-bc5b-11ea-89fb-f2d5d242d661.png" alt="Cover Image" align="center"/>
@@ -66,6 +66,7 @@ Center for Analysis and Design of Intelligent Agents, Language and Voice Lab <br
 - [10. Examples](#10-examples)
 - [11. Other resources](#11-other-resources)
 - [12. License](#12-license)
+- [13. Acknowledgements](#12-acknowledgements)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 </details>
@@ -89,15 +90,15 @@ The guide can be summarized as the following:
 - Check out our [examples](#11-examples).
 
 ### 1.3. Other resources
-- [Compute](https://github.com/cadia-lvl/compute) for information about the cluster (called Terra) at LVL.
+- [Compute](https://github.com/cadia-lvl/compute) for information about the cluster (called Terra) at Cadia-LVL.
 - [SÍM guidelines](SIM_software_development_standards.pdf) for writing and delivering software.
-- [Icelandic NLP resources](https://cadia-lvl.github.io/icelandic-NLP-resources/) to get an overview of existing icelandic resources.
-- [Máltækni fyrir íslensku](https://icelandic-lt.gitlab.io/) - (in Icelandic) overview of language resources from the Language Technology for Icelandic 2019-2023
+- [Icelandic Natural Language Processing (Language Technology) resources](https://cadia-lvl.github.io/icelandic-NLP-resources/) to get an overview of existing icelandic resources.
+- [Máltækni fyrir íslensku](https://icelandic-lt.gitlab.io/) - (in Icelandic) overview of language technology resources from the Language Technology for Icelandic 2019-2023 Project
 
 ### 1.4. Deliverables
 The [SÍM guidelines](SIM_software_development_standards.pdf) define the deliverable types APP, MOD, ADD-ON, WEB and RES.
 
-These types are quite abstract and LVL does not deliver all of them.
+These types are quite abstract and EFHM does not deliver all of them.
 Due to this we further break down these deliverables to offer more concrete guidelines:
 - UI (webpage, mobile, browser-plugin) = WEB, APP or ADD-ON
 - Server (restful webserver) = WEB
@@ -105,10 +106,10 @@ Due to this we further break down these deliverables to offer more concrete guid
 - Model (trained model, runnable trained model) = RES, APP or MOD
 - Command line client (python package, bash) = APP, MOD
 
-Translating from the SÍM requirements to these deliverables will need to be discussed with a SÍM project manager to answer the question of "what do they expect?".
+Translating from the SÍM requirements to these deliverables will need to be discussed with a project manager to answer the question of "what do they expect?".
 
 ### 1.5. Contributors
-To contribute to this project please submit a pull request to the master branch and request a review from someone in the software guidelines team. If you have a lot of suggestions feel free to make multiple requests.
+To contribute to this project please submit a pull request to the master branch and request a review from someone in the software development guidelines team. If you have a lot of suggestions feel free to make multiple requests.
 
 ### 1.5.1. Notes for writing the guide
 
@@ -123,12 +124,8 @@ To contribute to this project please submit a pull request to the master branch 
 
 #### 1.5.2. Maintainers
 
-* Gunnar Thor Örnólfsson <gunnaro@ru.is>
-* Judy Yum Fong <judyfong@ru.is>
-* Safa Jemai
-* Staffan J. S. Hedström <staffanh@ru.is>
-* Smári Freyr Guðmundsson <smarig@ru.is>
-* Þorsteinn Daði Gunnarsson <thorsteinng@ru.is>
+* Judy Yum Fong <einfaldlegahugmyndir@judyyfong.xyz>
+  
 ### 1.6. Dictionary
 
 | Word   | Meaning                                                |
@@ -172,7 +169,7 @@ We want our code to be freely available for everyone so we prefer permissive lic
 - MIT License (very permissive)
 - CC BY 4.0 (for resources)
 
-For more help choosing a license, see [Choosing a license](https://choosealicense.com/). Keep in mind that if you are working through SÍM you have agreed to use open licenses such as these. Furthermore, according to RU are the copyright owner.
+For more help choosing a license, see [Choosing a license](https://choosealicense.com/). Keep in mind that if you are working through SÍM you have agreed to use open licenses such as these. Furthermore, according to EFHM, the author, you, are the copyright owner.
 
 When a license has been chosen, simply copy the license text, fill in any additional information required (like copyright owner and year) and write it to a LICENCE file in the repository.
 
@@ -222,7 +219,7 @@ For example:
 [back to TOC](#table-of-contents)
 
 ## 5. Version control
-Within Cadia-LVL, using git for version control is required. A clean repository with descriptive comments makes for a good representation of your project which makes it easier for new developers to join it. The following is a way to maintain a project as such.
+Within Einfaldlega-Hugmyndir, using git for version control is required. A clean repository with descriptive comments makes for a good representation of your project which makes it easier for new developers to join it. The following is a way to maintain a project as such.
 
 ### 5.1. Workflow
 We use the [GitHub flow](https://guides.github.com/introduction/flow/) workflow.
@@ -240,7 +237,7 @@ When the work is done, create/open a "Pull Request" in GitHub.
 
 #### 5.1.2. Pull requests
 When you have finished working on the feature branch you should create a **pull request (PR)** to the master branch.
-Assign **someone other than yourself to review** the pull request (the code). If you request more than one reviewer, the default standard at Cadia-LVL is that only one person must review and approve the PR.
+Assign **someone other than yourself to review** the pull request (the code). If you request more than one reviewer, the default standard at Einfaldlega-Hugmyndir is that only one person must review and approve the PR.
 The **reviewer is responsible** for making sure that everything is (within limits) tested and documented.
 If the reviewer has issues with the pull request (very common) the reviewer **requests changes** and repeats this process until they are satisfied.
 When there are no more issues, the **reviewer approves the pull request** and merges it into the main branch.
@@ -432,5 +429,11 @@ For more complex deliverables (which have many dependencies) we also recommend p
 
 ## 12. License
 CC BY 4.0
+
+## 13. Acknowledgements
+These guidelines are based on the guidelines from this commit: https://github.com/cadia-lvl/SoftwareDevelopmentGuidelines/tree/394639a624e1d49757a0f8384b40a978d88cf5ff
+of
+Center for Analysis and Design of Intelligent Agents, Language and Voice Lab <br/>
+<a href="https://ru.is">Reykjavik University</a>
 
 [back to TOC](#table-of-contents)
